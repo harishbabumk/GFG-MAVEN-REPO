@@ -17,6 +17,26 @@
 		<maven.compiler.target>1.8</maven.compiler.target>
 	</properties>
 
+	<build>
+		<finalName>GFG-Calculator</finalName>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+			    <artifactId>maven-jar-plugin</artifactId>
+			    <version>3.4.1</version>
+				<configuration>
+					<archive>
+						<manifest>
+							<addclasspath>true</addclasspath>
+							<classpathPrefix>lib/</classpathPrefix>
+							<mainClass>demo.MyCalculator</mainClass>
+						</manifest>
+					</archive>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/junit/junit -->
 		<dependency>

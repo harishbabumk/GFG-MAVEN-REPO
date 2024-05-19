@@ -1,5 +1,7 @@
 package dummy_gfg_maven.dummy_gfg_maven_proj;
 
+import org.junit.Test;
+
 import demo.MyCalculator;
 import junit.framework.TestCase;
 
