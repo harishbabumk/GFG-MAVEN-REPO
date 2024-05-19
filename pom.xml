@@ -27,7 +27,7 @@
 				<configuration>
 					<archive>
 						<manifest>
-							<addclasspath>true</addclasspath>
+							<addClasspath>true</addClasspath>
 							<classpathPrefix>lib/</classpathPrefix>
 							<mainClass>demo.MyCalculator</mainClass>
 						</manifest>
